@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-cli/
+.DS_Store
+*.log
+.impeccable/
+dist-server/
+.env
+.env.*
+!.env.example
+server/wrangler.toml
+.wrangler/
+data/

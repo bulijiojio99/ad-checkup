@@ -1,0 +1,29 @@
+{
+  "name": "ad-checkup",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "投流体检：亚马逊 / 抖音 / 小红书 广告报表诊断，数据只在浏览器本地计算",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build:cli": "esbuild src/cli/index.ts --bundle --platform=node --format=esm --target=node18 --outfile=dist-cli/ad-checkup.mjs"
+  },
+  "dependencies": {
+    "preact": "^10.29.8",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.13",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  },
+  "license": "AGPL-3.0-only"
+}
