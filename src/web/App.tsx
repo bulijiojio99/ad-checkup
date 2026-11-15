@@ -346,7 +346,7 @@ export function App() {
           </div>
           {meta.beta && (
             <p class="note note-warn">
-              {meta.adSystem}官方帮助中心需要登录，还没能拿到真实导出文件核对表头。上传后请仔细核对第 2 步的列映射；如果识别不准，欢迎把脱敏报表发给我们校准。
+              {meta.adSystem}官方帮助中心需要登录，还没能拿到真实导出文件核对表头。上传后请仔细核对第 2 步的列映射，识别不准时可以手动指定每一列。
             </p>
           )}
         </section>
